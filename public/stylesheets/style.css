@@ -21,7 +21,7 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #3486eb;
   border: 0;
   padding: 1%;
   color: white;
@@ -117,7 +117,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #C2E5D3;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
