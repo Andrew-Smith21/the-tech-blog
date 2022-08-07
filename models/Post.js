@@ -49,10 +49,14 @@ Post.init(
     },
     post_url: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
       validate: {
         isURL: true
       }
+    },
+    post_text: {
+      type: DataTypes.STRING,
+      allowNull: false
     },
     user_id: {
       type: DataTypes.INTEGER,
