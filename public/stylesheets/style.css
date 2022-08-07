@@ -219,9 +219,11 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid black;
   display: flex;
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+  color:#C2E5D3;
+  background-color: black;
 }
