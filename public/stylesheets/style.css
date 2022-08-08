@@ -215,6 +215,47 @@ main {
   margin-bottom: 5%;
 }
 
+.login-form {
+  background-color: #C2E5D3;
+  margin-bottom: 15px;
+}
+
+.login-title {
+  padding: 10px;
+  padding-bottom: 5px;
+  color: #C2E5D3;
+}
+
+.login-card-container {
+  padding-left: 10px;
+}
+
+.login-button {
+  width: 11em;
+}
+
+.signup-form {
+  background-color: #C2E5D3;
+}
+
+.signup-title {
+  padding: 10px;
+  padding-bottom: 5px;
+  color: #C2E5D3;
+}
+
+.signup-card-container {
+  padding-left: 10px;
+}
+
+.signup-button {
+  width: 11em;
+}
+
+input {
+  margin-bottom: 5px;
+}
+
 footer {
   border-top: 1px solid black;
   display: flex;
