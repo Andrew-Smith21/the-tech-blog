@@ -2,43 +2,43 @@ const { Comment } = require('../models');
 
 const commentdata = [
   {
-    comment_text: 'Nunc rhoncus dui vel sem.',
-    user_id: 6,
+    comment_text: 'Using MVC has helped me stay organized as I create full-stack applications.',
+    user_id: 1,
     post_id: 1
   },
   {
-    comment_text: 'Quisque porta volutpat erat.',
-    user_id: 6,
+    comment_text: 'I definitely thought these were the same thing.',
+    user_id: 2,
     post_id: 2
   },
   {
-    comment_text: 'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
-    user_id: 8,
+    comment_text: 'Such a helpful distinction.',
+    user_id: 3,
     post_id: 2
   },
   {
-    comment_text: 'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-    user_id: 5,
+    comment_text: 'This makes create SQL queries so much more streamlined.',
+    user_id: 1,
     post_id: 3
   },
   {
-    comment_text: 'Aliquam quis turpis eget elit sodales scelerisque.',
-    user_id: 10,
+    comment_text: 'This is so much better than what I was using before!',
+    user_id: 2,
     post_id: 1
   },
   {
-    comment_text: 'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
-    user_id: 5,
+    comment_text: 'One of my favorite things to learn about.',
+    user_id: 3,
     post_id: 3
   },
   {
-    comment_text: 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
-    user_id: 10,
+    comment_text: 'I cried tears of joy when I learned about this.',
+    user_id: 1,
     post_id: 1
   },
   {
-    comment_text: 'Proin risus. Praesent lectus.',
-    user_id: 10,
+    comment_text: 'MVC really helps with separation of concerns.',
+    user_id: 2,
     post_id: 1
   }
 ];
