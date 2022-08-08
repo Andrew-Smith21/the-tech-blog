@@ -211,6 +211,10 @@ main {
   margin-bottom: 20px;
 }
 
+.display-none {
+  display: none;
+}
+
 .create-title {
   font-size: 1.25em;
   padding: 10px;
