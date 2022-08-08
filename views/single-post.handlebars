@@ -1,16 +1,22 @@
 {{> post-info post}}
 
 {{#if loggedIn}}
-<form class="comment-form">
-  <div>
-    <textarea name="comment-body"></textarea>
+<div class="comment-form-container card">
+  <div class="card-body">
+    <div class="card-title title">
+      
+    </div>
+    <form class="comment-form">
+      <div>
+        <label for="comment-body">Comment</label>
+        <textarea class="comment-body"name="comment-body"></textarea>
+      </div>
+      <div class="add-comment-button">
+        <button class="add-comment" type="submit">Add Comment</button>
+      </div>
+    </form>
   </div>
-
-  <div>
-    <button type="submit">add comment</button>
-    <button type="button" class="upvote-btn">upvote</button>
-  </div>
-</form>
+</div>
 {{/if}}
 
 {{> comments post.comments}}
